@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    
+     
+}
+
+
+
+
+#navbar::before{
+    content: "";
+    background-color: #41bdcbf7;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 2rem;
+}
+
+#navbar ul li a{
+color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#navbar ul li a{
+    font-size: 1.7rem;
+    padding: 7px 17px;
+    padding-bottom: 8px;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.pic1{
+    background: url('img1.jpg') center center/cover no-repeat;
+    min-height:100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.pic2{
+    background: url('img2.jpg') center center/cover no-repeat;
+    min-height:40vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.pic3{
+    background: url('img3.jpg') center center/cover no-repeat;
+    min-height:40vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.pic4{
+    background: url('img4.jpg') center center/cover no-repeat;
+    min-height:100vh;
+    position: relative;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 31px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+}
+.text1{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    background: rgb(187 228 233 / 25%);
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px 0px;
+    border-radius: 15px
+}
+.text2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    background: rgb(187 228 233 / 25%);
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px 0px;
+    border-radius: 15px
+}
+.text3{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    background: rgb(187 228 233 / 25%);
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px 0px;
+    border-radius: 15px
+}
+.text4{
+    position: absolute;
+    top: 31%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0px;
+    text-shadow: 2px 2px black;
+    right: 11%;
+}
+.border{
+    border: 7px solid;
+    width: 289px;
+    padding: 18px;
+    margin: auto;
+    border-radius: 15px
+}
+#foot{
+    background-color:black ;
+    color: white;
+    text-align: center;
+}
+#right{
+    display: block;
+    text-align: right;
+}
+
+
+
+
